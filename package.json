@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "github:action": "cypress run --headless --browser chrome",
     "cypress:open:chrome": "npx cypress run -b chrome --headed",
-    "cypress:open:firexof": "npx cypress run -b firefox --headed",
+    "cypress:open:firefox": "npx cypress run -b firefox --headed",
     "cypress:run:chrome": "npx cypress run -b chrome",
     "cypress:run:firefox": "npx cypress run -b firefox",
     "cypress:open:chrome:spec": "npx cypress run -b chrome --spec cypress/e2e/api-headers.cy.js",
